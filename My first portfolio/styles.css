@@ -9,12 +9,10 @@
 }
 body {
     background: linear-gradient(35deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+   font-family: 'Press Start 2P', cursive;
 }
 .page-wrapper {
     position: relative;
-}
-body{
-    font-family: 'Press Start 2P', cursive;
 }
 li {
     list-style: none;
@@ -57,7 +55,8 @@ header {
     width: 100%;
     margin: 0 auto;
   }
-nav ul {
+  
+#navbar ul {
     width: 35vw;
     display: flex;
     flex-direction: row;
@@ -77,32 +76,50 @@ nav ul {
     padding-bottom: 50px;
     display: flex;
     flex-direction: row;
-    border-top: 2px solid white;
     gap: 20px;
     justify-content: space-around;
+    height: 100vh;
 
 }
+h1 {
+    color: white;
+    padding-left: 10px;
+}
+
 p {
     text-align: justify;
   text-justify: inter-word;
 }
 .p-about {
+  border-left: 0.5px solid white;
+  justify-content: center;
   color: white;
   width: 500px;
-  border-left: 0.5px solid white;
   text-align: justify;
   text-justify: inter-word;
   height: 100%;
   padding-left:10px;
+  padding-top: 15px;
  }
 
+
  .projects {
+    color: white;
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 50px;
  }
+
+ .project_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+ }
+
  .contact {
     padding-top: 80px;
     padding-bottom: 50px;
