@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background: linear-gradient(35deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+}
+.page-wrapper {
+    position: relative;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+}
+li {
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    min-height: 75px;
+    padding: 0px 20px;
+    background-color: #03547D;
+    color: white;
+    padding-left: 20px;
+}
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+
+.logo {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+nav ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    margin: auto;
+  }
+.joystick {
+    width: 300px;
+}
+.grid{
+    display: flex;
+}
+.apresentation{
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid white;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+p {
+    text-align: justify;
+  text-justify: inter-word;
+}
+.p-about {
+  color: white;
+  width: 500px;
+  border-left: 0.5px solid white;
+  text-align: justify;
+  text-justify: inter-word;
+  height: 100%;
+  padding-left:10px;
+ }
+
+ .projects {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+ }
+ .contact {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+ }
+
+.email-icon{
+    width: 200px;
+}
+
+.article{
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
